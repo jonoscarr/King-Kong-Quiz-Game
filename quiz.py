@@ -36,7 +36,7 @@ Good luck and have fun!
 
             answer = input("Your answer (A, B, C, or D): ").strip().upper()
 
-            if answer in ["A", "B", "C", "D",  "DECEMBER 2005", "WELLINGTON", "NEW ZEALAND", "WELLINGTON, NEW ZEALAND", "NAOMI WATTS", "NAOMI", "WATTS", "1933", "EMPIRE STATE BUILDING", "EMPIRE", "STATE"]:
+            if answer in ["A", "B", "C", "D",  "DECEMBER 2005", "WELLINGTON", "NEW ZEALAND", "WELLINGTON, NEW ZEALAND", "NAOMI WATTS", "NAOMI", "WATTS", "1933", "EMPIRE STATE BUILDING", "EMPIRE", "STATE", "DEMBER 2006", "JANUARY 2005", "NOVEMBER 2005","SYDNEY", "AUSTRALIA","SYDNEY, AUSTRALIA","SYDNEY AUSTRALIA","RIO DE JANEIRO BRAZIL", "FIJI", "BRAZIL","RIO DE JANEIRO","RIO DE JANEIRO, BRAZIL", "KIRSTEN DUNST", "RACHEL MCADAMS","KATE WINSLETT", "1965","1985", "1896" "WORLD TRADE CENTER", "BROOKLYN BRIDGE", "STATUE OF LIBERTY"  ]:
                 return answer
             else:
                 print("Invalid input. Please enter A, B, C, D or choose an answer from one of the choices above.")
@@ -156,7 +156,11 @@ Answers:
           5. D. Empire State Building
           
           ''')
+    
+#-----------------Prompts user if they want to play again------------------
 
+# ------------------------------------------------------------------------------------------------------#
+    
     play_again = input("Do you want to take the quiz again? ").strip().upper()
 
 
@@ -180,7 +184,4 @@ else:
 print()
 time.sleep(1)
 
-#-----------------Prompts user if they want to play again------------------
 
-# ------------------------------------------------------------------------------------------------------#
-    
