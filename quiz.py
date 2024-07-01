@@ -139,6 +139,8 @@ Good luck and have fun!
     print()
     print("----------------STATS-------------------")
     time.sleep(1)
+    if score == 5:
+        print(f"Perfect! your score is {score}/5!")
     if score > 2:        
         print(f"Well done! your score is: {score}/5.")
     else:
@@ -170,7 +172,7 @@ Answers:
 prompter = input("Do you want to play my quiz? ").strip().upper()
 
 if prompter == "YES" or prompter == "Y":
-    quiz_game()
+    quiz_game() 
 else:
     print("Maybe next time?")
     pass
